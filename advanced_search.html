@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Extended search</title>
+</head>
+
+<body>
+    <div class="menu">
+        <a href="index.html">
+            <div class="menu-item">Поиск по запросу</div>
+        </a>
+        <a href="advanced_search.html">
+            <div class="menu-item">Расширенный поиск</div>
+        </a>
+    </div>
+    <h1>Advance Search</h1>
+    <hr>
+    <br>
+    <h3>Find pages with...</h3>
+    <div class="form-container">
+        <form action="https://google.com/search">
+            <div class="input-container">
+                <div class="field">
+                    <label for="as_q">All these words:</label>
+                    <input type="text" name="as_q">
+                </div>
+                <div class="field">
+                    <label>This exact word or phrase:</label>
+                    <input type="text" name="as_epq"></p>
+                </div>
+                <div class="field">
+                    <label>Any of these words:</label>
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="field">
+                    <label>None of these words:</label>
+                    <input type="text" name="as_eq">
+                </div>
+                <div class="field">
+                    <br>
+                </div>
+                <div class="field">
+                    <input type="submit" value="Search" class="search-btn">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
