@@ -1,0 +1,144 @@
+html,
+body {
+  height: 100%;
+  background-color: #202124;
+  font-family: arial, sans-serif;
+  color: #bdc1c6;
+  font-size: 14px;
+  min-width: 350px;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-top: 10%;
+  flex-direction: column;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+#search-input {
+  border-radius: 100px 100px 100px 100px;
+  width: 80%;
+  max-width: 550px;
+  min-width: 300px;
+  min-height: 35px;
+  padding-left: 35px;
+  padding-bottom: 3px;
+  font-size: 16px;
+  background-color: #202124;
+  color: #bdc1c6;
+  margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+#search-input:hover {
+  border: 2px solid #bcc1c6;
+  background-color: #303134;
+}
+
+.search-btn {
+  margin-top: 20px;
+  min-width: 100px;
+  max-width: 150px;
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 10px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.search-btn:hover {
+  box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+  background-color: #303134;
+  border: 1px solid #5f6368;
+  color: #e8eaed;
+}
+
+#main-logo {
+  margin: 10px;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  height: auto;
+  align-items: right;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  color: #bcc1c6;
+  box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+  border-radius: 4px;
+}
+
+.menu-item:hover {
+  background-color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.input-container {
+  padding: 0;
+  max-width: 800px;
+}
+
+.field {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
+}
+
+label {
+  padding: 0.5em 1em 0.5em 0;
+  flex: 1;
+}
+
+.field > input {
+  flex: 2;
+}/*# sourceMappingURL=style.css.map */
